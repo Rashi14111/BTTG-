@@ -14,7 +14,7 @@ app = Flask(__name__)
 app.secret_key = '563596d88700bb183fbd9bc6b87c37ca'  # Needed for session management
 
 
-EXCEL_PATH = r"C:\Users\Dell\Documents\FacultyData.xlsx"
+EXCEL_PATH = "FacultyData.xlsx"
 
 FACULTY_SHEET = 'faculty'
 COURSE_SHEET = 'courses'
